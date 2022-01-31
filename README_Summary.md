@@ -51,21 +51,21 @@ In this assignment I will build and evaluate several machine learning models to 
 
 1. Which model had the best balanced accuracy score?
 
-    - 0.6663745764692137 - Balanced Random Forest Classifier
+    - 0.7739584466441858 - Balanced Random Forest Classifier
     - **0.9324304724609305 - Easy Ensemble Classifier**
     
     **ANSWER:** Examining the figures above it can bee seen that the **Easy Ensemble Classifier** model had the best balanced accuracy score.
 
 2. Which model had the best recall score?
 
-    - **0.9960476605637896 - Balanced Random Forest Classifier**
-    - 0.9451903516419645 - Easy Ensemble Classifier
+    - 0.8915431560592851 - Balanced Random Forest Classifier
+    - **0.9451903516419645 - Easy Ensemble Classifier**
     
-    **ANSWER:** Examining the figures above it can bee seen that the **Balanced Random Forest Classifier** model had the best recall score.
+    **ANSWER:** Examining the figures above it can bee seen that the **Easy Ensemble Classifier** model had the best recall score.
 
 3. Which model had the best geometric mean score?
 
-    - 0.5771816061994972 - Balanced Random Forest Classifier
+    - 0.7647885691688799 - Balanced Random Forest Classifier
     - **0.9323413686091855 - Easy Ensemble Classifier**
     
     **ANSWER:** Examining the figures above it can bee seen that the **Easy Ensemble Classifier** model had the best geometric mean score.
@@ -73,6 +73,6 @@ In this assignment I will build and evaluate several machine learning models to 
 4. What are the top three features?
 
      **ANSWER:** The following lists the top three features
-    - 0.09103494104659202, 'total_rec_prncp'
-    - 0.07100785388726943, 'total_rec_int'
-    - 0.06648847235067998, 'total_pymnt'
+         - 0.0756092393069983, 'total_rec_prncp'
+         - 0.06959573158422656, 'total_rec_int'
+         - 0.06327652424873491, 'total_pymnt_inv'
